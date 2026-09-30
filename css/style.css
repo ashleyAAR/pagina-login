@@ -73,3 +73,22 @@ body {
     padding: 32px 20px;
   }
 }
+
+.btn-entrar {
+  width: 100%;
+  margin-top: 8px;
+  padding: 13px;
+  border: none;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #ff6fa5, #d63384);
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.btn-entrar:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(214, 51, 132, 0.4);
+}
